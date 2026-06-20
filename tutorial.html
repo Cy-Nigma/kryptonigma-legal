@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tutorial de Uso — Kryptonigma</title>
+<meta name="description" content="Guía paso a paso para usar Kryptonigma: crea tu bóveda, encripta archivos y compártelos de forma segura.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="shell">
+
+  <!-- SIDEBAR -->
+  <nav class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">K</div>
+      <div class="brand-name">KRYPTONIGMA</div>
+    </div>
+    <div class="brand-sub">by Cy-Nigma</div>
+
+    <div class="nav-label">Documentos</div>
+    <ul class="nav-list">
+      <li><a href="terminos.html"><span class="dot"></span>Términos y Condiciones</a></li>
+      <li><a href="privacidad.html"><span class="dot"></span>Política de Privacidad</a></li>
+      <li><a href="tutorial.html" class="active"><span class="dot"></span>Tutorial de Uso</a></li>
+    </ul>
+
+    <div class="nav-label">En esta guía</div>
+    <ul class="nav-list">
+      <li><a href="#instalacion"><span class="dot"></span>Instalación</a></li>
+      <li><a href="#menu"><span class="dot"></span>Menú lateral</a></li>
+      <li><a href="#boveda"><span class="dot"></span>La Bóveda</a></li>
+      <li><a href="#encriptar"><span class="dot"></span>Centro de Cifrado</a></li>
+      <li><a href="#notas"><span class="dot"></span>Notas Seguras</a></li>
+      <li><a href="#llave"><span class="dot"></span>Llave de encriptación</a></li>
+      <li><a href="#eliminar"><span class="dot"></span>Eliminar archivos</a></li>
+      <li><a href="#faq"><span class="dot"></span>Preguntas frecuentes</a></li>
+    </ul>
+
+    <div class="sidebar-foot">
+      AES-GCM · 100% Offline<br>
+      Guía v1.1 — 2024
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main>
+    <div class="eyebrow">Guía de uso</div>
+    <h1 class="page-title">Tutorial de Kryptonigma</h1>
+    <div class="page-meta">Versión 1.1 · Cy-Nigma</div>
+
+    <p class="lede">Todo lo que necesitas para crear tu bóveda, encriptar tus primeros archivos y compartirlos de forma segura. Esta guía se actualiza con cada nueva versión de la app.</p>
+
+    <!-- ===== INSTALACIÓN ===== -->
+    <h2 id="instalacion"><span class="num">01</span>Instalación y Primeros Pasos</h2>
+    <p>Descarga Kryptonigma desde Google Play Store. Al abrir la app por primera vez, te guiará por una breve configuración inicial antes de llegar a tu bóveda.</p>
+
+    <div class="step-card">
+      <div class="screenshot-frame">
+        <img src="assets/img/onboarding-0-carga.jpg" alt="Pantalla de carga de Kryptonigma">
+      </div>
+      <div>
+        <div class="step-num">PASO 1</div>
+        <h3>Pantalla de carga</h3>
+        <p>Al abrir la app por primera vez, Kryptonigma prepara tu entorno seguro localmente en el dispositivo. Este proceso es breve y no requiere conexión a internet.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="screenshot-frame">
+        <img src="assets/img/onboarding-1-idioma.jpg" alt="Selección de idioma">
+      </div>
+      <div>
+        <div class="step-num">PASO 2</div>
+        <h3>Elige tu idioma</h3>
+        <p>Selecciona el idioma en el que prefieres usar la app. Puedes cambiarlo después en cualquier momento desde el menú de configuración.</p>
+        <div class="step-tip">💡 Esta elección no afecta la encriptación de tus archivos, solo el idioma de la interfaz.</div>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="screenshot-frame">
+        <img src="assets/img/onboarding-1-aviso.jpg" alt="Aviso de privacidad antes de empezar">
+      </div>
+      <div>
+        <div class="step-num">PASO 3</div>
+        <h3>Antes de empezar</h3>
+        <p>Un resumen breve de cómo Kryptonigma cuida tu información: tus archivos son solo tuyos, no se usa internet para espiarte, tu correo es solo para emergencias y tú tienes el control total.</p>
+        <p>Marca la casilla para aceptar la Política de Privacidad y el Manejo de Datos, y presiona <strong>Continuar</strong>.</p>
+        <div class="step-tip">💡 Puedes volver a leer estos documentos completos en cualquier momento desde el menú de configuración.</div>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="screenshot-frame">
+        <img src="assets/img/onboarding-2-correo.jpg" alt="Registro de correo de respaldo">
+      </div>
+      <div>
+        <div class="step-num">PASO 4</div>
+        <h3>Tu correo de respaldo (opcional)</h3>
+        <p>Este correo se usa únicamente para devolverte el acceso a tu bóveda si alguna vez olvidas tu llave de encriptación. Se guarda solo en tu teléfono — nadie en Kryptonigma puede verlo ni usarlo, y puedes cambiarlo cuando quieras.</p>
+        <div class="step-tip">⚠ Es el único dato personal que la app solicita, y solo se usa para esta función de recuperación.</div>
+      </div>
+    </div>
+
+    <!-- ===== MENÚ ===== -->
+    <h2 id="menu"><span class="num">02</span>Menú Lateral</h2>
+    <p>Desde el ícono de menú (☰), en la esquina superior izquierda, accedes a todas las funciones de Kryptonigma.</p>
+
+    <div class="step-card">
+      <div class="screenshot-frame">
+        <img src="assets/img/menu-lateral.jpg" alt="Menú lateral de Kryptonigma">
+      </div>
+      <div>
+        <h3>Todo a un toque de distancia</h3>
+        <ul class="std">
+          <li><strong>Bóveda</strong> — tu espacio de archivos encriptados.</li>
+          <li><strong>Centro de Cifrado</strong> — encripta archivos o crea notas seguras.</li>
+          <li><strong>Método de Seguridad</strong> — configura huella digital o PIN.</li>
+          <li><strong>Cambiar PIN</strong> — actualiza tu código de acceso.</li>
+          <li><strong>Información del Sistema</strong> — datos técnicos de la app.</li>
+          <li><strong>Correo de Recuperación</strong> — gestiona tu correo de respaldo.</li>
+          <li><strong>Exportar Kit de Emergencia</strong> — respalda tu llave de forma segura.</li>
+          <li><strong>Respaldar / Restaurar Bóveda</strong> — copia de seguridad completa.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ===== BÓVEDA ===== -->
+    <h2 id="boveda"><span class="num">03</span>La Bóveda: tu espacio seguro</h2>
+    <p>La bóveda es el corazón de Kryptonigma. Desde allí puedes ver y gestionar todos tus archivos encriptados, organizarlos en carpetas, y compartirlos cuando quieras.</p>
+
+    <div class="step-card">
+      <div class="screenshot-frame">
+        <img src="assets/img/boveda-raiz.jpg" alt="Vista de la bóveda raíz">
+      </div>
+      <div>
+        <h3>Organiza tus archivos</h3>
+        <ul class="std">
+          <li>Crea carpetas (como "AI" o "Javibi" en el ejemplo) para ordenar tus archivos.</li>
+          <li>Las carpetas con ícono de candado tienen protección adicional.</li>
+          <li>Cada archivo muestra su fecha, tipo (IMG, VID) y peso.</li>
+          <li>Selecciona uno o varios archivos con los checkboxes para editarlos, moverlos, compartirlos o eliminarlos en bloque.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ===== CENTRO DE CIFRADO ===== -->
+    <h2 id="encriptar"><span class="num">04</span>Centro de Cifrado</h2>
+    <p>El Centro de Cifrado es el punto de entrada para encriptar cualquier archivo de tu teléfono — fotos, documentos, PDFs, lo que sea.</p>
+
+    <div class="step-card">
+      <div class="screenshot-frame">
+        <img src="assets/img/centro-cifrado.jpg" alt="Centro de Cifrado con archivo seleccionado">
+      </div>
+      <div>
+        <h3>Encripta un archivo</h3>
+        <ol class="std">
+          <li>Presiona el ícono de carpeta para buscar el archivo en tu dispositivo.</li>
+          <li>Una vez seleccionado, verás la confirmación "1 archivo seleccionado".</li>
+          <li><strong>Guardar en Bóveda</strong> lo encripta y lo guarda dentro de la app.</li>
+          <li><strong>Compartir Archivo</strong> lo encripta y lo envía directo a otra app (WhatsApp, correo, etc.).</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- ===== NOTAS SEGURAS ===== -->
+    <h2 id="notas"><span class="num">05</span>Editor de Notas Seguras</h2>
+    <p>Dentro del Centro de Cifrado también puedes activar el <strong>Editor de Notas Seguras</strong> para escribir y encriptar texto directamente, sin necesidad de un archivo — ideal para contraseñas, claves o información sensible que quieras anotar.</p>
+
+    <div class="step-card">
+      <div class="screenshot-frame">
+        <img src="assets/img/notas-seguras-vacio.jpg" alt="Editor de notas seguras vacío">
+      </div>
+      <div>
+        <h3>Activa el editor</h3>
+        <p>Marca la casilla "Editor de Notas Seguras" para habilitar el campo de texto. Mientras esté vacío, los botones de Guardar y Compartir permanecen deshabilitados.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="screenshot-frame">
+        <img src="assets/img/notas-seguras-escrito.jpg" alt="Nota segura con texto escrito">
+      </div>
+      <div>
+        <h3>Escribe y encripta tu nota</h3>
+        <p>En cuanto escribes contenido, se habilitan <strong>Guardar en Bóveda</strong> y <strong>Compartir Archivo</strong>. La nota se encripta igual que cualquier otro archivo.</p>
+        <div class="step-tip">💡 Útil para guardar claves de acceso, números de cuenta o cualquier dato sensible sin tener que crear un documento aparte.</div>
+      </div>
+    </div>
+
+    <!-- ===== LLAVE ===== -->
+    <h2 id="llave"><span class="num">06</span>Llave de Encriptación</h2>
+    <p>Al guardar o compartir un archivo, defines la llave que lo protege.</p>
+
+    <div class="step-card">
+      <div class="screenshot-frame">
+        <img src="assets/img/llave-encriptacion.jpg" alt="Pantalla para definir llave de encriptación">
+      </div>
+      <div>
+        <h3>Define tu llave</h3>
+        <ul class="std">
+          <li>Escribe una llave en <strong>Crear llave manual</strong> y confírmala en el campo siguiente.</li>
+          <li>El ícono de ojo te permite mostrar u ocultar lo que escribes.</li>
+          <li><strong>Usar Kit (Pegar)</strong> te permite pegar una llave que ya tengas guardada, en vez de escribirla de nuevo.</li>
+        </ul>
+        <div class="step-tip">⚠ Guarda bien esta llave. Sin ella, ni tú ni Cy-Nigma podrán acceder al archivo encriptado.</div>
+      </div>
+    </div>
+
+    <!-- ===== ELIMINAR ===== -->
+    <h2 id="eliminar"><span class="num">07</span>Eliminar Archivos</h2>
+    <div class="step-card">
+      <div class="screenshot-frame">
+        <img src="assets/img/eliminar-confirmacion.jpg" alt="Confirmación de eliminación masiva">
+      </div>
+      <div>
+        <h3>Eliminación con confirmación</h3>
+        <p>Selecciona uno o varios archivos y presiona el ícono de papelera. Kryptonigma siempre pide confirmación antes de borrar, porque la eliminación es permanente.</p>
+        <div class="step-tip">⚠ Una vez eliminado, el archivo no puede recuperarse a menos que tengas un respaldo de tu bóveda.</div>
+      </div>
+    </div>
+
+    <!-- ===== FAQ ===== -->
+    <h2 id="faq"><span class="num">08</span>Preguntas Frecuentes</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">¿Quién define la llave de encriptación?</div>
+      <p class="faq-a">La defines tú mismo al guardar o compartir cada archivo. También puedes reutilizar una llave guardada con la opción "Usar Kit (Pegar)".</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">¿Qué pasa si pierdo mi llave?</div>
+      <p class="faq-a">Si registraste un correo de respaldo, puedes usar el Kit de Recuperación de Emergencia desde el menú lateral. Sin correo registrado, la recuperación no es posible — por eso es clave guardar bien tu llave.</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">¿La empresa tiene acceso a mis datos?</div>
+      <p class="faq-a">No. Kryptonigma es una aplicación completamente offline. Cy-Nigma no retiene, almacena ni tiene acceso a ningún dato del usuario, salvo el correo de respaldo que tú decidas registrar.</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">¿Necesito internet para usar Kryptonigma?</div>
+      <p class="faq-a">No. La aplicación funciona completamente offline. Internet solo se necesita si decides respaldar en la nube o compartir un archivo por otra app.</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">¿El destinatario de un archivo necesita Kryptonigma?</div>
+      <p class="faq-a">Sí. Para desencriptar y ver un archivo compartido, el destinatario debe tener Kryptonigma instalado y la llave que tú le proporciones.</p>
+    </div>
+
+    <div class="page-foot">
+      <div class="tagline">Kryptonigma — Tu información, solo tuya.</div>
+      Cy-Nigma © 2024
+    </div>
+  </main>
+</div>
+</body>
+</html>
